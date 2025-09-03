@@ -1,5 +1,11 @@
-function App() {
-  return <p>Hello World</p>;
-}
+import Card from "./Card";
+
+const App = () => {
+  return (
+    <main>
+      <Card />
+    </main>
+  );
+};
 
 export default App;
