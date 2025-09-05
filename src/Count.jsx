@@ -1,5 +1,10 @@
+
 const Count = () => {
-  return <p>Count: 0</p>;
+
+  return   <>
+  <p className="title">Count: 0</p>;
+<p className="title2">Count: 0</p>;</>
+
 };
 
 export default Count;
