@@ -5,7 +5,7 @@ import CountButtons from "./CountButtons";
 
 const Card = () => {
   return (
-    <div>
+    <div className="card">
       <TitleFoo />
       <Count />
       <ResetButton />
