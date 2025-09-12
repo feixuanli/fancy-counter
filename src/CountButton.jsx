@@ -1,6 +1,6 @@
-const CountButton = ({ handleClick, IconComp}) => {
+const CountButton = ({ handleClick, IconComp, locked}) => {
     return (
-      <button onClick={handleClick} className="count-btn">
+      <button disabled={locked} onClick={handleClick} className="count-btn">
        <IconComp className='count-btn-icon'/>
       </button>)
 
